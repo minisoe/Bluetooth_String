@@ -23,6 +23,6 @@ void loop() {
     if (data == "ledoff") {
       digitalWrite (13, LOW);
     }
-    data = "";
+    data = "";// add somthing to clear the data string after processing it
   }
 }
